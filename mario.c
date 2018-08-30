@@ -1,3 +1,5 @@
+TODO: implementar uma forma de receber input sem usar a biblioteca cs50
+
 #include <stdio.h>
 #include <cs50.h>
 
@@ -8,7 +10,6 @@ int main(void)
     do
     {
         printf("Height: ");
-        // implement uma forma de enviar este sem usar a biblioteca cs50
         altura = get_int();
     }
     while (altura < 0 || altura > 23);
